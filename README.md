@@ -1,5 +1,5 @@
 # Semantic-Web
-Semantic Web 神魔鬼！！！
+Semantic Web 知识图谱相关内容和资料整理
 
 ## 
 This is a simply introducation for the Semantic Web about the ontology.This article may help you who feel puzzles at the SW simple understand the question

@@ -9,3 +9,5 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 ##
 [王昊奋：大规模知识图谱技术](http://blog.sciencenet.cn/blog-1225851-801901.html)
+[Zhishi.me](http://zhishi.me/)
+[复旦大学-知识工厂（Knowledge Works）](http://kw.fudan.edu.cn/)

@@ -15,6 +15,8 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [Yanxi feng: Question Answering Benchmark and Semantic Parsing](http://kw.fudan.edu.cn/resources/ppt/workshop2017/yanxifeng.pdf)
 
+- [徐波: 中文知识图谱CN-DBpedia构建的关键技术](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E5%A4%A7%E8%A7%84%E6%A8%A1%E7%99%BE%E7%A7%91%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%9E%84%E5%BB%BA.pdf)
+
 ## Web pages
 
 - [Zhishi.me](http://zhishi.me/)

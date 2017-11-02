@@ -1,11 +1,11 @@
 # Semantic-Web
 Semantic Web 知识图谱相关内容和资料整理
 
-## 
 This is a simply introducation for the Semantic Web about the ontology.This article may help you who feel puzzles at the SW simple understand the question
 that what is Semantic!  
 
 U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n")
+## 
 
 ## Blog&&PPT
 - [王昊奋：大规模知识图谱技术](http://blog.sciencenet.cn/blog-1225851-801901.html)

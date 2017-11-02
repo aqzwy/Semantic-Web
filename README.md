@@ -15,7 +15,11 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [Yanxi feng: Question Answering Benchmark and Semantic Parsing](http://kw.fudan.edu.cn/resources/ppt/workshop2017/yanxifeng.pdf)
 
-- [徐波: 中文知识图谱CN-DBpedia构建的关键技术](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E5%A4%A7%E8%A7%84%E6%A8%A1%E7%99%BE%E7%A7%91%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%9E%84%E5%BB%BA.pdf)
+- [徐波（复旦大学）： 中文知识图谱CN-DBpedia构建的关键技术](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E5%A4%A7%E8%A7%84%E6%A8%A1%E7%99%BE%E7%A7%91%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E6%9E%84%E5%BB%BA.pdf)
+
+- [李直旭（苏州大学）：知识图谱的质量控制---对于同名的信息处理](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%9A%84%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6.pdf)
+
+-[梁家卿（复旦大学）：大规模分类体系构建](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA.pdf)
 
 ## Web pages
 

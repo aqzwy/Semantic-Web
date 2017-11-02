@@ -23,5 +23,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [复旦大学-知识工厂（Knowledge Works）](http://kw.fudan.edu.cn/)
 
+- [CN-Depedia](http://kw.fudan.edu.cn/cndbpedia/search/)
+
 
 

@@ -5,9 +5,8 @@ This is a simply introducation for the Semantic Web about the ontology.This arti
 that what is Semantic!  
 
 U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n")
-*** 
 
-## Blog&&PPT
+## Blog&&PPT*** 
 - [王昊奋：大规模知识图谱技术](http://blog.sciencenet.cn/blog-1225851-801901.html)
 
 ### [知识图谱前沿技术课程-Workshop 2017](http://kw.fudan.edu.cn/workshop/intro2017)

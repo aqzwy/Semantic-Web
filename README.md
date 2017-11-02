@@ -13,7 +13,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [肖仰华（复旦大学知识工场实验室）：知识图谱综述---详细的讲解了知识图谱中数据的多种构成形式](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%BB%BC%E8%BF%B0.pdf)
 
-- [Yanxi feng:Question Answering Benchmark and Semantic Parsing](http://kw.fudan.edu.cn/resources/ppt/workshop2017/yanxifeng.pdf)
+- [Yanxi feng: Question Answering Benchmark and Semantic Parsing](http://kw.fudan.edu.cn/resources/ppt/workshop2017/yanxifeng.pdf)
 
 ## Web pages
 

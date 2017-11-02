@@ -21,6 +21,8 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [梁家卿（复旦大学）：大规模分类体系构建](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%88%86%E7%B1%BB%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA.pdf)
 
+- [面向知识图谱的问答系统](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E9%9D%A2%E5%90%91%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F.pdf)
+
 ## Web pages
 
 - [Zhishi.me](http://zhishi.me/)

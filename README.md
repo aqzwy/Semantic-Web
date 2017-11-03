@@ -35,5 +35,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [RDF 数值类型(W3C官方介绍)](https://www.w3.org/TR/rdf11-concepts/#section-triples)
 
+- [n-triples 格式介绍](https://www.w3.org/TR/n-triples/)
+
 
 

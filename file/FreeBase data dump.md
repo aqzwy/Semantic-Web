@@ -1,6 +1,6 @@
 ![mahua](http://upload-images.jianshu.io/upload_images/1044987-d42dd9b249fbfda0.png?imageMogr2/auto-orient/strip%7CimageView2/2)
 
-FreeBase中结点用type/objecct表示、边用type/link表示
+> FreeBase中结点用type/objecct表示、边用type/link表示
 
 FreeBase中每一个条目叫做Topic
 一个Topic包含很多属性，能属于不同的type

@@ -33,5 +33,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [CN-Depedia](http://kw.fudan.edu.cn/cndbpedia/search/)
 
+- [RDF 数值类型(W3C官方介绍)](https://www.w3.org/TR/rdf11-concepts/#section-triples)
+
 
 

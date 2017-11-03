@@ -38,7 +38,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [FreeBase 介绍--需要翻墙，可以用蓝灯](https://developers.google.com/freebase/)
 
-  *  [1](http://blog.csdn.net/hagen666/article/details/54838454) *  [2](https://developers.google.com/freebase/#freebase-rdf-dumps) *  [3](http://www.ruanyifeng.com/blog/2007/05/freebase_com.html) 
+  *  [1](http://blog.csdn.net/hagen666/article/details/54838454)  *  [2](https://developers.google.com/freebase/#freebase-rdf-dumps)  *  [3](http://www.ruanyifeng.com/blog/2007/05/freebase_com.html) 
 
 
 

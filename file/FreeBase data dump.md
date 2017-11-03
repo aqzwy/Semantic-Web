@@ -13,5 +13,7 @@ N-triples 数据格式
 
 复杂的数据模型构建freebase 的namespace domain type property，来表示其中的相互关联关系。
 
+![picture-schema](https://github.com/aqzwy/Semantic-Web/blob/master/file/FreeBase-picture.png)
+
 
 

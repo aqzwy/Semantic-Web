@@ -36,5 +36,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [n-triples 格式介绍](https://www.w3.org/TR/n-triples/)
 
+- [FreeBase 介绍--需要翻墙，可以用蓝灯](https://developers.google.com/freebase/)
+
 
 

@@ -24,8 +24,8 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 - [面向知识图谱的问答系统](http://kw.fudan.edu.cn/resources/ppt/workshop2017/%E9%9D%A2%E5%90%91%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E7%9A%84%E9%97%AE%E7%AD%94%E7%B3%BB%E7%BB%9F.pdf)
 
-- [CNSCHEMA: 面向BOT的开放中文知识图谱SCHEMA](http://blog.memect.cn/?p=3377)   
-  - [它的类层次](https://schema.org.cn/docs/full.html)
+- [CNSCHEMA: 面向BOT的开放中文知识图谱SCHEMA](http://blog.memect.cn/?p=3377)  [URL](http://cnschema.org/)
+ 
 
 ## Web pages
 
@@ -50,6 +50,7 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 - [OpenKG](http://openkg.cn/home)
 
 - [Schema.org 中文站: imdb.com使用过它](https://schema.org.cn/)
+   - [它的类层次](https://schema.org.cn/docs/full.html)
 
 ## Tools
 * [Protege知识建模](https://protege.stanford.edu/)

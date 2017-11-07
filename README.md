@@ -44,6 +44,8 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
   
 - [Xlore-李娟子老师构建的知识图谱](http://xlore.org/)
 
+-[OpenKG](http://openkg.cn/home)
+
 ## Tools
 * [Protege知识建模](https://protege.stanford.edu/)
 

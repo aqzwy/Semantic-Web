@@ -12,4 +12,4 @@ Things is not string
 
 * [X] 知识用连续向量进行表示，Tensor，神经网络表示（不会啊）
 -  动态本体应对金融领域预测问题，如（PALANTIR，预测本拉登的位置）
--  Protege知识建模，知识三元组抽取deepdive，知识存储北京大学gStore
+

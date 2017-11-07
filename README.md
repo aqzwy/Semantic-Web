@@ -44,7 +44,11 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
 
 ## Tools
 * [Protege知识建模](https://protege.stanford.edu/)
+
 * [知识三元组抽取deepdive](http://openkg.cn/tool/cn-deepdive)
+
 * [知识存储北京大学gStore](http://openkg.cn/tool/gstore)
+
 * [知识问答YodaQA](http://openkg.cn/tool/yodaqa-qa)
-* [实体链接发现](http://openkg.cn/tool/limes)
+
+* [实体链接发现Limes](http://openkg.cn/tool/limes)

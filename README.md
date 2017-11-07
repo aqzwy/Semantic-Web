@@ -1,5 +1,6 @@
 # Semantic-Web
 Semantic Web 知识图谱相关内容和资料整理
+Semantic Web 是一种知识表示的框架
 
 This is a simply introducation for the Semantic Web about the ontology. This article may help you who feel puzzles at the SW. Simple understand the question that what is Semantic!  
 

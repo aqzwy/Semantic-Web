@@ -42,5 +42,9 @@ U can learn something from W3C in the [Github](https://github.com/webcc/s3n "s3n
   *  [2](https://developers.google.com/freebase/#freebase-rdf-dumps)  
   *  [3](http://www.ruanyifeng.com/blog/2007/05/freebase_com.html) 
 
-
+## Tools
+* [Protege知识建模](https://protege.stanford.edu/)
+* [知识三元组抽取deepdive](http://openkg.cn/tool/cn-deepdive)
+* [知识存储北京大学gStore](http://openkg.cn/tool/gstore)
+* [知识问答YodaQA](http://openkg.cn/tool/yodaqa-qa)
 

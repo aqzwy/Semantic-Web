@@ -1,4 +1,6 @@
-### 作为一个初学小菜鸡，一般会通过Blog和一些官方文档来学习Neo4j的相关知识点。本文主要通过使用py2neo来操纵neo4j数据库，借鉴学习他人的经验后，进行知识汇总并加入自己的理解，将相关内容记录下来。py2neo 官方文档：[http://py2neo.org/v3/types.html](http://py2neo.org/v3/types.html)</font>
+### 作为一个初学小菜鸡，一般会通过Blog和一些官方文档来学习Neo4j的相关知识点。本文主要通过使用py2neo来操纵neo4j数据库，借鉴学习他人的经验后，进行知识汇总并加入自己的理解，将相关内容记录下来。
+- py2neo 官方文档：[http://py2neo.org/v3/types.html](http://py2neo.org/v3/types.html)
+- [相关资料](http://cuiqingcai.com/4778.html)
 
 ## 注意点
 * 1

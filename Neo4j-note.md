@@ -37,5 +37,34 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      print(relation_1.type(),relation.type())
 ```
 
+## 建立节点及关系的其它方法
+
+通过字典的方式[]、设定默认值setdefault可以对节点或者边（属性）进行相应属性信息的添加。其中字典添加信息的方式会覆盖住默认值。或者通过update更新属性信息
+```Python
+     node_1 = Node("Person",name='Node_1')
+     node_2 = Node("Person",name='Node_2')
+     
+    # First
+     node_1['age']=20
+     node_1['otherName']='Bush'
+
+     # Second
+     node_2.setdefault('location','beijing')
+
+     # Third
+     data = {
+    'name': 'Amy',
+    'age': 21
+     }
+     node_1.update(data)
+
+     test_graph.create(node_1)
+     test_graph.create(node_2)
+
+     # 边添加属性信息
+     relation = Relationship(node_1,'KNOWS',node_2)
+     relation['time'] = '2017/08/31'
+     test_graph.create(relation)
+```
 
 

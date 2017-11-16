@@ -28,9 +28,14 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
     relation = Relationship(node_1,'KNOWS',node_2)
     test_graph.create(relation)
 ```	
-结果：
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
-
+创建关系的第二种方法,对于创建的边（关系）通过type()方法进行查看
+```Python
+ # 建立关系 第二种方法
+class WorksWith(Relationship):pass
+relation_1 = WorksWith(node_1,node_2)
+test_graph.create(relation_1)
+print(relation_1.type(),relation.type())
+```
 
 
 

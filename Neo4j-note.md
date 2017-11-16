@@ -15,7 +15,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ## 建立节点及关系
 
-通过Node方法创建一个简单的节点，该节点包含节点类型font>, 该节点类型相当于本体中的 描述具有同种特征的实体集合，name就是节点的名称，在Neo4j中每个节点具有唯一的ID作为唯一识别信息。
+通过Node方法创建一个简单的节点，该节点包含节点类型font>, 该节点类型相当于本体中的 描述具有同种特征的实体集合，name就是节点的名称，在Neo4j中每个节点具有唯一的ID作为唯一识别信息。 两个节点之间的关系可以通过Relationship来进行设定，既设定点与点之间的边的内容，最终通过create()方法在Neo4j数据库中进行节点及关系的创建。
 
 ```Python
     # 建立节点信息
@@ -28,7 +28,8 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
     relation = Relationship(node_1,'KNOWS',node_2)
     test_graph.create(relation)
 ```	
-
+结果：
+ ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
 
 
 

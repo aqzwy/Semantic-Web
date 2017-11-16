@@ -10,7 +10,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ```Python
      # 连接 Neo4j 3.2.0
-     Neo4j_graph = Graph("bolt://127.0.0.1:7687", username="neo4j", password= yourPassword)
+      Neo4j_graph = Graph("bolt://127.0.0.1:7687", username="neo4j", password= yourPassword)
 ```
 
 ## 建立节点及关系
@@ -19,22 +19,22 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ```Python
     # 建立节点信息
-    node_1 = Node("Person",name='Node_1')
-    node_2 = Node("Person",name='Node_2')
-    test_graph.create(node_1)
-    test_graph.create(node_2)
+     node_1 = Node("Person",name='Node_1')
+     node_2 = Node("Person",name='Node_2')
+     test_graph.create(node_1)
+     test_graph.create(node_2)
 
     # 建立关系信息
-    relation = Relationship(node_1,'KNOWS',node_2)
-    test_graph.create(relation)
+     relation = Relationship(node_1,'KNOWS',node_2)
+     test_graph.create(relation)
 ```	
 创建关系的第二种方法,对于创建的边（关系）通过type()方法进行查看
 ```Python
- # 建立关系 第二种方法
-class WorksWith(Relationship):pass
-relation_1 = WorksWith(node_1,node_2)
-test_graph.create(relation_1)
-print(relation_1.type(),relation.type())
+   # 建立关系 第二种方法
+     class WorksWith(Relationship):pass
+     relation_1 = WorksWith(node_1,node_2)
+     test_graph.create(relation_1)
+     print(relation_1.type(),relation.type())
 ```
 
 

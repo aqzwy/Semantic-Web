@@ -97,9 +97,10 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ## 查询语句
 
+下面的语句表达的含义是查询Neo4j库中所有节点的信息并返回。
 ```Python
      #Cypher in Python
-     result=test_graph.data('MATCH (n) RETURN n.name LIMIT 25')
+     result=test_graph.data('MATCH (n) RETURN n LIMIT 25')
      print(result)
 ```
 

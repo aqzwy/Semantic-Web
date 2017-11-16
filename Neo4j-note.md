@@ -2,8 +2,8 @@
 
 ## 注意点
 
-graph.create()决定着数据是否从内存中存入到Neo4j中，若没有使用该方法，前面的数据创建只会显示出对应的属性信息，但最终不会再Neo4j中
-进行记录，所以当你去Neo4j数据库中查看时，结果为空。但不影响用户对于各种方法的使用和测试，其通过print()打印出节点关系和节点信息。
+`graph.create()`决定着数据是否从内存中存入到Neo4j中，若没有使用该方法，前面的数据创建只会显示出对应的属性信息，但最终不会再Neo4j中
+进行记录，所以当你去Neo4j数据库中查看时，结果为空。但不影响用户对于各种方法的使用和测试，其通过`print()`打印出节点关系和节点信息。
 
 ```Python
      a = Node('Person', name='Alice')
@@ -46,7 +46,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ## 建立节点及关系
 
-通过Node方法创建一个简单的节点，该节点包含节点类型font>, 该节点类型相当于本体中的 描述具有同种特征的实体集合，name就是节点的名称，在Neo4j中每个节点具有唯一的ID作为唯一识别信息。 两个节点之间的关系可以通过Relationship来进行设定，既设定点与点之间的边的内容，最终通过create()方法在Neo4j数据库中进行节点及关系的创建。
+通过`Node`方法创建一个简单的节点，该节点包含节点类型, 该节点类型相当于本体中的 描述具有同种特征的实体集合，`name`就是节点的名称，在Neo4j中每个节点具有唯一的ID作为唯一识别信息。 两个节点之间的关系可以通过`Relationship`来进行设定，既设定点与点之间的边的内容，最终通过`create()`方法在Neo4j数据库中进行节点及关系的创建。
 
 ```Python
     # 建立节点信息
@@ -70,7 +70,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
 
 ## 建立节点及关系的其它方法
 
-通过字典的方式[]、设定默认值setdefault可以对节点或者边（属性）进行相应属性信息的添加。其中字典添加信息的方式会覆盖住默认值。或者通过update更新属性信息
+通过字典的方式`[]`、设定默认值`setdefault`可以对节点或者边（属性）进行相应属性信息的添加。其中字典添加信息的方式会覆盖住默认值。或者通过`update`更新属性信息
 ```Python
      node_1 = Node("Person",name='Node_1')
      node_2 = Node("Person",name='Node_2')
@@ -97,7 +97,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      relation['time'] = '2017/08/31'
      Neo4j_graph.create(relation)
 ```
-或者使用命为subgraph的方法进行关系的创建，最后记得使用create() 方法进行数据的序列化操作
+或者使用命为subgraph的方法进行关系的创建，最后记得使用`create()` 方法进行数据的序列化操作
 ```Python
      a = Node('Person', name='Alice')
      b = Node('Person', name='Bob')
@@ -118,7 +118,7 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      print(result)
 ```
 ## 常用方法
-- graph.delete_all()  删掉Neo4j库中所有节点和关系信息
-- graph.create(Node/Relationship/subgraph)  将信息序列化到Neo4j中
-- graph.data(Cypher sentence) 执行Cypher语句，返回JSON结果信息
+- graph.delete_all()  删掉Neo4j库中所有节点和关系信息
+- graph.create(Node/Relationship/subgraph)          将信息序列化到Neo4j中
+- graph.data(Cypher sentence)             执行Cypher语句，返回JSON结果信息
 

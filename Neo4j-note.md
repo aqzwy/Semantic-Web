@@ -9,7 +9,7 @@ graph.create()决定着数据是否从内存中存入到Neo4j中，若没有使�
      a = Node('Person', name='Alice')
      b = Node('Person', name='Bob')
      r = Relationship(a, 'KNOWS', b)
-     s = a | b | r
+     s = a | b | r #subgraph
      print(s）
 ```
 结果：
@@ -38,19 +38,19 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
     # 建立节点信息
      node_1 = Node("Person",name='Node_1')
      node_2 = Node("Person",name='Node_2')
-     test_graph.create(node_1)
-     test_graph.create(node_2)
+     Neo4j_graph.create(node_1)
+     Neo4j_graph.create(node_2)
 
     # 建立关系信息
      relation = Relationship(node_1,'KNOWS',node_2)
-     test_graph.create(relation)
+     Neo4j_graph.create(relation)
 ```	
 创建关系的第二种方法,对于创建的边（关系）通过type()方法进行查看
 ```Python
    # 建立关系 第二种方法
      class WorksWith(Relationship):pass
      relation_1 = WorksWith(node_1,node_2)
-     test_graph.create(relation_1)
+     Neo4j_graph.create(relation_1)
      print(relation_1.type(),relation.type())
 ```
 
@@ -75,21 +75,25 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      }
      node_1.update(data)
 
-     test_graph.create(node_1)
-     test_graph.create(node_2)
+     Neo4j_graph.create(node_1)
+     Neo4j_graph.create(node_2)
 
      # 边添加属性信息
      relation = Relationship(node_1,'KNOWS',node_2)
      relation['time'] = '2017/08/31'
-     test_graph.create(relation)
+     Neo4j_graph.create(relation)
 ```
-或者
+或者使用命为subgraph的方法进行关系的创建，最后记得使用create() 方法进行数据的序列化操作
 ```Python
      a = Node('Person', name='Alice')
      b = Node('Person', name='Bob')
      r = Relationship(a, 'KNOWS', b)
+     #subgraph
      s = a | b | r
+     print(s)
+     Neo4j_graph.create(s)
 ```
+以上对于节点和关系的创建总共分为两步：1. 选择一种方法建立好节点和关系信息 2. 选择一种建立节点之间关系的方法
 
 ## 查询语句
 

@@ -103,5 +103,8 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      result=test_graph.data('MATCH (n) RETURN n LIMIT 25')
      print(result)
 ```
-
+## 常用方法
+- graph.delete_all()  删掉Neo4j库中所有节点和关系信息
+- graph.create(Node/Relationship/subgraph)  将信息序列化到Neo4j中
+- graph.data(Cypher sentence) 执行Cypher语句，返回JSON结果信息
 

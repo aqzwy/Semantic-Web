@@ -11,11 +11,25 @@ graph.create()决定着数据是否从内存中存入到Neo4j中，若没有使�
      r = Relationship(a, 'KNOWS', b)
      s = a | b | r #subgraph
      print(s）
+     
+     result=test_graph.data('MATCH (n) RETURN n LIMIT 25')
+     print(result)
 ```
 结果：
+```Python
+     ({(alice:Person {name:"Alice"}), (bob:Person {name:"Bob"})}, {(alice)-[:KNOWS]->(bob
+     []
 ```
-     ({(alice:Person {name:"Alice"}), (bob:Person {name:"Bob"})}, {(alice)-[:KNOWS]->(bob)})
+加上
+```Python
+     test_graph.create(s)
 ```
+结果：
+```Python
+     ({(alice:Person {name:"Alice"}), (bob:Person {name:"Bob"})}, {(alice)-[:KNOWS]->(bob)})
+     [{'n': (alice:Person {name:"Alice"})}, {'n': (bob:Person {name:"Bob"})}]
+```
+
 
 ## 连接数据库
 通过python连接Neo4j数据库时，使用地址bolt开头(bolt://127.0.0.1:7687）或地址http://127.0.0.1:7474

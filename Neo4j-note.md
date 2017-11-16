@@ -1,4 +1,21 @@
-### 作为一个初学小菜鸡，一般会通过Blog和一些官方文档来学习Neo4j的相关知识点。本文主要通过使用py2neo来操纵neo4j数据库，借鉴他人的经验，学习并理解，将相关内容记录下来。py2neo 官方文档：[http://py2neo.org/v3/types.html](http://py2neo.org/v3/types.html)</font>
+### 作为一个初学小菜鸡，一般会通过Blog和一些官方文档来学习Neo4j的相关知识点。本文主要通过使用py2neo来操纵neo4j数据库，借鉴学习他人的经验后，进行知识汇总并加入自己的理解，将相关内容记录下来。py2neo 官方文档：[http://py2neo.org/v3/types.html](http://py2neo.org/v3/types.html)</font>
+
+## 注意点
+
+graph.create()决定着数据是否从内存中存入到Neo4j中，若没有使用该方法，前面的数据创建只会显示出对应的属性信息，但最终不会再Neo4j中
+进行记录，所以当你去Neo4j数据库中查看时，结果为空。但不影响用户对于各种方法的使用和测试，其通过print()打印出节点关系和节点信息。
+
+```Python
+     a = Node('Person', name='Alice')
+     b = Node('Person', name='Bob')
+     r = Relationship(a, 'KNOWS', b)
+     s = a | b | r
+     print(s）
+```
+结果：
+```
+     ({(alice:Person {name:"Alice"}), (bob:Person {name:"Bob"})}, {(alice)-[:KNOWS]->(bob)})
+```
 
 ## 连接数据库
 通过python连接Neo4j数据库时，使用地址bolt开头(bolt://127.0.0.1:7687）或地址http://127.0.0.1:7474
@@ -65,6 +82,13 @@ available (Neo4j 3.0 and above) and Bolt auto-detection is enabled, this will   
      relation = Relationship(node_1,'KNOWS',node_2)
      relation['time'] = '2017/08/31'
      test_graph.create(relation)
+```
+或者
+```Python
+     a = Node('Person', name='Alice')
+     b = Node('Person', name='Bob')
+     r = Relationship(a, 'KNOWS', b)
+     s = a | b | r
 ```
 
 ## 查询语句
